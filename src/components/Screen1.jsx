@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import screen1 from "../assets/screen1.png";
+
 
 const Screen1 = () => {
   return (
     <div className="relative flex items-center justify-center h-screen bg-[#121212] overflow-hidden">
       <img 
-        src={screen1}
+        src="https://images.unsplash.com/photo-1719866193184-e7f73c281faa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW91bnRhaW5zJTIwc3Vuc2V0fGVufDB8fDB8fHww"
         alt="Skyline" 
         className="absolute inset-0 w-full h-full object-cover"
       />
