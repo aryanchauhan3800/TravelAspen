@@ -1,0 +1,11 @@
+/* Hide scrollbars but keep scrolling */
+.tabs-box {
+    overflow-x: scroll; /* Ensure horizontal scrolling */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .tabs-box::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
