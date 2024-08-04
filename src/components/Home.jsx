@@ -45,7 +45,7 @@ function Home() {
                 </NavLink>
                 {/* Card 2 */}
                 <NavLink
-                  to="/layout/place/2"
+                  to="/layout/place/1"
                   className="block w-full sm:w-[150px] sm:h-[200px] ml-[-30px]"
                 >
                   <PlaceCard2 />
